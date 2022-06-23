@@ -8,32 +8,40 @@
   <link rel="stylesheet" href="css/marlla.css">
   <link rel="stylesheet" href="imagens/svg/icons8-head-profile-32.png">
 
-  <title>Landing page- marlla</title>
+  <title>Landing page</title>
 </head>
 
 <body>
+  <header class="header">
+    <div class="grid1">
+      <a class="logo" href="#">Marlla Rolemberg</a>
+      <p>Dev</p>
+      <nav>
+        <ul class="info">
+          <li> <a href="#aboutme">About me</a>
+          </li>
+          <li> <a href=#contate>Contact</a>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </header>
 
-  <!-- Perfil -->
 
   <div class="card">
     <h1> Hi there!</h1>
-    <p>I'm Marlla Rolemberg, at the moment I work as a front-end. I'm improving myself to work as a Full Stack.</p>
     <img src="imagens/marlla.jpg" alt="foto marlla">
   </div>
-  <!-- frame  -->
+
+
   <div class="box">
     <div class="bola1"></div>
     <div class="bola2"></div>
-    <div class="bola3"></div>
-  </div <!-- barra de link -->
+  </div>
+  <!-- barra de link -->
   <main>
     <div class="barra">
-      <div class="block">
-        <a href="#jogos"><img src="imagens/jogos.png" alt="Jogos">
-          <h1>Games</h1>
-        </a>
 
-      </div>
       <div class="block">
         <a href="#linguagens"><img src="imagens/linguagem.png" alt="Linguagem">
           <h1> Languages </h1>
@@ -41,64 +49,61 @@
 
       </div>
       <div class="block">
-        <img src="imagens/contribuioes.png" alt="Contribuições">
-        <h1>Contributions</h1>
+        <a href=""><img src="imagens/contribuioes.png" alt="Contribuições">
+          <h1>Contributions</h1>
+        </a>
       </div>
+    </div>
     </div>
 
     <a href="#" class="seta"><i class="arrow up"></i></a>
 
 
+    <!-- Sobre mim -->
+    <div class="menu">
+      <div class="jogoti" id="aboutme">
 
-    <nav class="menu">
+        <h1> About me</h1>
 
+        <p>I'm Marlla Rolemberg, I'm 20 years old and I work as a front end. I'm perfecting myself to work as a Full Stack and I graduate in computer engineering.
+          I am looking for knowledge and development in applications for creation of new ventures in the technology industry. I am interested in being part of the tech world and making contributions to the world.
 
-
-      <div class="jogo" id="jogos">
-
-        <img src="imagens/jogo-da-velha-icone-de-contorno-linear-de-neon_7280-2418.jpg" alt="">
+          I'm connected bringing new projects soon. ;)</p>
       </div>
-      <div class="jogoti">
-        <h2> Tic-toc-toe </h2>
-        <p>The players alternately, one tag at a time, on an empty space. The objective is to obtain three circles or three crosses in a row, either horizontally, vertically or diagonally, and at the same time, when possible, impediment or impediment to win in the next move.</p>
-      </div>
-      <div class="jogodavelha">
-        <div id="amostra">
-          <p> Vez do jogador:</p>
-          <img src="imagens/xjogodavelha.png" alt="Letra X">
-        </div>
-        <div class="tabuleiro">
-          <div id="cola1" class="esaco" jogada=""></div>
-          <div id="cola2" class="esaco" jogada=""></div>
-          <div id="cola3" class="esaco" jogada=""></div>
 
-          <div id="colb1" class="esaco" jogada=""></div>
-          <div id="colb2" class="esaco" jogada=""></div>
-          <div id="colb3" class="esaco" jogada=""></div>
-
-          <div id="colc1" class="esaco" jogada=""></div>
-          <div id="colc2" class="esaco" jogada=""></div>
-          <div id="colc3" class="esaco" jogada=""></div>
-
+      <div class="linguagem" id="linguagens">
+        <div class="ling1">
+          <img src="imagens/htmlogo.png" alt="">
+          <p>Basic</p>
 
         </div>
+        <div class="ling2">
+          <img src="imagens/logo-g5f50321f8_640.png" alt="">
+          <p>Basic</p>
+        </div>
 
+        <div class="ling3">
+          <img src="imagens/js.png" alt="">
+          <p>Basic</p>
+        </div>
       </div>
-
-
 
   </main>
 
-  <footer>
+  <footer class="roda">
 
     <a href=" https://github.com/Mxrlla" target="_blank"><img src="imagens/logotipo-do-github.png" alt="github">
-      <p> Github </p>
+      <p id="contate"> Github </p>
     </a>
     <a href="https://www.linkedin.com/in/marlla-rolemberg-411b56164" target="_blank"><img src="imagens/linkedin.png" alt="linkedin">
       <p> Linkedin</p>
-    </a>
+    </a><br><br>
+
+    <div class="color">
+      <p class="cy"> © Criado por Marlla Rolemberg</p>
+    </div>
   </footer>
-  <a href="#" class="seta2"><i class="arrow down"></i></a>
+
 </body>
 
 

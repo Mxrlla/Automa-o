@@ -1,0 +1,277 @@
+@font-face {
+  font-family: hello;
+  src: url("/arquivo/Hello\ Darling.ttf");
+}
+@font-face {
+  font-family: pirata;
+  src: url("/arquivo/Pirate\ of\ the\ Seaside\ Bubbles.ttf");
+}
+body {
+  background: rgb(90, 176, 203);
+  background: linear-gradient(
+    330deg,
+    rgba(90, 176, 203, 0.6587009803921569) 0%,
+    rgba(69, 134, 191, 0.9051995798319328) 35%,
+    rgba(47, 91, 161, 1) 100%
+  );
+  max-width: 50%;
+  height: 2000px;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.card {
+  height: 350px;
+  width: 350px;
+  background: linear-gradient(#6db4ffe8, #4649dd5b);
+  border-radius: 300px;
+  position: absolute;
+  left: 80px;
+  top: 50px;
+}
+.card img {
+  height: 400px;
+  width: 400px;
+  border-radius: 550px;
+  left: 100px;
+  top: 60px;
+  position: absolute;
+}
+.card h1 {
+  color: rgb(16, 17, 17);
+  font-family: hello;
+  font-size: 100px;
+  height: 250px;
+  width: 450px;
+  margin: 150px 560px;
+}
+.card p {
+  color: rgb(16, 17, 17);
+  font-family: "Times New Roman", Times, serif;
+  height: 300px;
+  width: 500px;
+  font-size: 25px;
+  margin: -190px 500px;
+  text-align: justify;
+}
+.box {
+  margin: 5px 0px;
+  margin-top: 100px;
+}
+.bola1 {
+  height: 650px;
+  width: 650px;
+  border-radius: 25px;
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    190deg,
+    #c4bebe00 32%,
+    rgba(255, 255, 255, 0) 53%,
+    #fbf6fa2a 84%
+  );
+  top: 5px;
+  left: 250px;
+}
+.bola2 {
+  height: 550px;
+  width: 750px;
+  border-radius: 25px;
+  position: absolute;
+  z-index: -1;
+  background: linear-gradient(
+    230deg,
+    #fbfeffa1 32%,
+    rgba(255, 255, 255, 0.397) 53%,
+    #fbf6fa00 84%
+  );
+  bottom: 35px;
+  right: 200px;
+  margin: -20px auto;
+}
+
+/* div para parameterizar os icones de barra */
+.barra {
+  display: flex;
+  flex-flow: row nowrap;
+  align-items: center;
+  justify-content: space-evenly;
+  align-content: center;
+  width: 100%;
+  height: 1700px;
+  margin: -130px auto;
+  position: absolute;
+  right: 15px;
+}
+.barra img {
+  width: 100px;
+  height: 100px;
+  margin: 5px 5px;
+}
+/* div das imagens e titulos */
+
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  text-align: center;
+}
+.block {
+  width: 110px;
+  height: 110px;
+  border-radius: 50%;
+  margin: 5px -55px;
+  background: linear-gradient(#022cff79, #46c1dd34);
+}
+.block h1 {
+  color: azure;
+  font-family: hello;
+  text-align: center;
+  font-size: 19px;
+}
+.barra a {
+  text-decoration: none;
+  color: #222;
+} /* Seta pra subir  */
+.seta a {
+  text-decoration: none;
+  display: inline-block;
+  padding: 8px 8px;
+  height: 25px;
+  width: 25px;
+  border-radius: 50%;
+  left: 40px;
+}
+
+a:hover {
+  background-color: rgb(128, 209, 250);
+  color: #2151ed;
+}
+
+.seta {
+  margin: 10px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  position: fixed;
+  right: 20px;
+  bottom: 30px;
+  border-radius: 50%;
+  background-color: #2151ed;
+}
+.arrow {
+  margin: 8px 8px;
+  border: solid black;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 3px;
+}
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg);
+  /* setadescida */
+}
+/*fim da seta */
+
+.jogo {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  width: 1000px;
+  height: 490px;
+  position: absolute;
+  background: #fafafa39;
+  position: absolute;
+  right: 155px;
+  bottom: -900px;
+  border-radius: 18px;
+  box-shadow: 3px 1px 2px #444043b8;
+}
+.jogo img {
+  width: 45%;
+  height: 450px;
+  padding: 10px 10px;
+  margin: 5px 20px;
+  border-radius: 15px;
+  justify-content: center;
+  align-content: center;
+}
+.jogoti {
+  width: 35%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  align-content: flex-start;
+  text-align: justify;
+  position: absolute;
+  right: 165px;
+  bottom: -760px;
+}
+.jogoti h2 {
+  color: #222;
+  margin: 4px;
+  margin: 0px 20px;
+  padding: 30px;
+  display: absolute;
+  top: auto;
+  font-size: 40px;
+  font-family: hello;
+}
+
+.jogoti p {
+  color: #222;
+  margin: 5px;
+  text-align: left;
+  margin: 0px 20px;
+  font-family: "Times New Roman", Times, serif;
+  font-size: 22px;
+}
+
+footer {
+  position: relative;
+  bottom: -2000px;
+  right: -350px;
+  display: flex;
+  justify-content: space-evenly;
+  text-decoration-line: none;
+  width: 100%;
+  height: 150px;
+}
+footer img {
+  width: 40px;
+  height: 40px;
+}
+footer p {
+  color: rgb(235, 235, 235);
+}
+/* #amostra { */
+
+#amostra p {
+  position: absolute;
+  right: 1045px;
+  bottom: -1156px;
+  font-size: 22px;
+  font-family: "Times New Roman", Times, serif;
+}
+#amostra img {
+  position: absolute;
+  right: 950px;
+  bottom: -1187px;
+  width: 120px;
+  height: 120px;
+}
+.tabuleiro {
+  width: 652px;
+}
+.esaco {
+  width: 180px;
+  height: 180px;
+  border: 5px solid #ffffff;
+  position: relative;
+  border-radius: 5px;
+  right: -430px;
+  bottom: -1650px;
+  float: left;
+  text-align: center;
+}

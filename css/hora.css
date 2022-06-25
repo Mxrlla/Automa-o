@@ -1,0 +1,70 @@
+@font-face {
+  font-family: pirata;
+  src: url(/arquivo/PirataOne-Regular.ttf);
+}
+body {
+  margin: 0px;
+  background-image: url(/imagens/Untitled.png);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  text-decoration: none;
+}
+
+.volta img {
+  background: #77ff00;
+  box-shadow: 9px 10px #d000df;
+  border-radius: 10px;
+  margin: 10px 15px;
+}
+h1 {
+  font-family: pirata;
+  font-size: 110px;
+  color: linerrgb(255, 255, 255);
+  text-align: center;
+  color: #77ff00;
+  text-shadow: 12px 5px #d400cd;
+  margin-top: -22px;
+}
+form {
+  display: flex;
+  justify-content: center;
+  width: 630px;
+  padding: 180px;
+  background: white;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 6px 3px 0 6px #a7a7a7;
+  margin-top: -30px;
+  position: relative;
+  left: 340px;
+  border: 3px 2px #d400ff;
+}
+form button {
+  border: none;
+  border-radius: 7px;
+  padding: 8px;
+  font-size: 40px;
+  margin-left: 60px;
+}
+form .color {
+  font-size: 80px;
+}
+#st {
+  background: #ed05d6;
+}
+#ps {
+  background: #c732bd;
+}
+#rt {
+  background: #bd08e1;
+}
+p {
+  color: #ffffff;
+  background: #d000df;
+  padding: 20px;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  margin-bottom: -50px;
+  width: 98%;
+}

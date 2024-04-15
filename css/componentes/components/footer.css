@@ -15,3 +15,6 @@ footer .footer__content .footer__contact span{
 footer .footer___content .footer__copyright{
     font-size: 1.4rem;
 }
+footer .footer___content h2 p ul li a img{
+    width: 10%;
+}

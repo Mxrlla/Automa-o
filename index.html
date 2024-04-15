@@ -5,125 +5,180 @@
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/marlla.css">
-  <link rel="stylesheet" href="imagens/svg/icons8-head-profile-32.png">
-  <script src="js/script.js"></script>
-
-  <title>Landing page</title>
+  <link rel="stylesheet" href="css/componentes/extends.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mooli&display=swap" rel="stylesheet">
+  <title>Marlla Rolemberg</title>
 </head>
 
 <body>
-  <header class="header">
-    <div class="grid1">
-      <a class="logo" href="#">Marlla Rolemberg</a>
-      <p>Dev</p>
-      <nav>
-        <ul class="info">
-          <li> <a href="#aboutme">About me</a>
-          </li>
-          <li> <a href=#contate>Contact</a>
-          </li>
-        </ul>
-      </nav>
+  <!-- Navbar -->
+<nav class="navbar">
+  <div class="navbar__content max-width mb-0">
+      <img class="pic_logo" src="assests/marlla.png" alt="Logo_marlla" >
+    
+    <ul class="navbar__links">
+      <li><a href="#about">Sobre</a></li>
+      <li><a href="#skills">Habilidades</a</li>
+      <li><a href="#projects">Projetos</a></li>
+      <li><a href="#footer">Contatos</a></li>
+    </ul>
+    <div class="navbar__mobile active">
+      <img src="assests/menu.svg" alt="menu" class="burguer">
+      <ul class="mobile__links">
+        <li><a href="#about">Sobre</a></li>
+        <li><a href="#skills">Habilidades</a</li>
+        <li><a href="#projects">Projetos</a></li>
+        <li><a href="#footer">Contatos</a></li>
+      </ul>
+
     </div>
-  </header>
-
-
-  <div class="card">
-    <h1> Hi there!</h1>
-    <img src="imagens/marlla.jpg" alt="foto marlla">
   </div>
-
-
-  <div class="box">
-    <div class="bola1"></div>
-    <div class="bola2"></div>
+</nav>
+<!-- Header -->
+<header>
+  <div class="header__left">
+    <h1> Hello! Hello!  </h1>
+    <br><br><br>
+    <p>Me chamo Marlla, 
+       minha jornada acadêmica tem sido marcada por desafios e aprendizados constantes, à medida que mergulho cada vez mais fundo no mundo da tecnologia.</p>
+    <a href="#about" class=" btn btn-primary">Saiba mais</a>
+      </div>
+  <div class="header__right">
+    <div class="header__image">
+      <img src="/assests/Bonequinho_marlla.png" alt="Marlla Sousa" class="Marlla">
+    </div>
   </div>
-  <!-- barra de link -->
-  <main>
-    <div class="barra">
-
-      <div class="block">
-        <a href="#linguagens"><img src="imagens/linguagem.png" alt="Linguagem">
-          <h1> Languages </h1>
-        </a>
-
-      </div>
-      <div class="block">
-        <a href="#contribuicao"><img src="imagens/contribuioes.png" alt="Contribuições">
-          <h1>Contributions</h1>
-        </a>
-      </div>
-    </div>
-    </div>
-
-    <a href="#" class="seta"><i class="arrow up"></i></a>
-
-
-    <!-- Sobre mim -->
-    <div class="menu">
-      <div class="jogoti" id="aboutme">
-
-        <h1> About me</h1>
-
-        <p>I'm Marlla Rolemberg, I'm 20 years old and I work as a front end. I'm perfecting myself to work as a Full Stack and I graduate in computer engineering.
-          I am looking for knowledge and development in applications for creation of new ventures in the technology industry. I am interested in being part of the tech world and making contributions to the world.
-
-          I'm connected bringing new projects soon. ;)</p>
-      </div>
-
-      <div class="linguagem" id="linguagens">
-        <div class="ling1">
-          <img src="imagens/linguagens.png" alt="html">
-          <p>Basic</p>
-
+</header>
+<!-- Sobre -->
+<main>
+<section id="about" class="about max max-width">
+<div class="about__left">
+  <h2 class="secondary-title">
+    Além do código: quem sou eu?
+  </h2>
+  <p> Conecte-se comigo nas redes sociais</p>
+  <ul>
+    <li><a href=""><img src="/assests/instagram.svg" alt="instagram"></a></li>
+    <li><a href=""><img src="/assests/linkedin.svg" alt="Linkedin"></a></li>
+  </ul>
+</div>
+<div class="about__right">
+  <h3 class="tertiary-title mb-m">
+    Desenvolvedora de Sistemas apaixonada por tecnologia e soluções criativas.
+  </h3>
+  <p class="">
+    Eu 
+    sou estudante do 9º semestre de Engenharia da Computação e atualmente estou realizando um estágio na área de desenvolvimento de sistemas.
+    Tenho 2 anos de experiência em desenvolvimento web, tenho trabalhado com diversas tecnologias e plataformas para atender aos stalkeholders. 
+  </p>
+</div>
+</section>
+<!-- SKILLS  -->
+<section id="skills" class="skills">
+  <div class="skills__content max-width">
+    <h2 class="tertiary-title">
+      Minhas ferrementas de trabalho
+    </h2>
+    <p class="description">Descubra as habilidades e ferramentas que domino 
+      e que me permitem criar soluções</p>
+    <ul>
+      <li class="skills__item">
+        <div class="image-container">
+          <img src="/assests/notebook.png" alt="desenvolvimento web">
         </div>
-        <div class="ling2">
-          <img src="imagens/linguagens (1).png" alt="css">
-          <p>Basic</p>
+        <h3>Desenvolvimento Web</h3>
+        <p>Experiência com front e back com foco em tecnologias modernas.</p>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <img src="/assests/colors.png" alt="web design">
         </div>
-
-        <div class="ling3">
-          <img src="imagens/linguagens (2).png" alt="js">
-          <p>Basic</p>
+        <h3>Design</h3>
+        <p>Experiência com front e back com foco em tecnologias modernas.</p>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <img src="/assests/files.png" alt="Gerenciamento de versões">
         </div>
-      </div>
-
-      <div class="projects" id="contribuicao">
-        <a href="contador.html" class="time">
-          <img src="imagens/timer.png" alt="timer"></img>
-          <h2>Timer</h2>
-        </a>
-        <a href="Ecommerce.html" class="carro">
-          <img src="imagens/SampaioCar.jpg" alt="carro">
-          <h2>E-commerce aluguel de carros</h1>
-        </a>
-
-      </div>
-
-  </main>
-
-  <footer class="roda">
-    <div class="foo">
-      <a href=" https://github.com/Mxrlla" target="_blank"><img src="imagens/logotipo-do-github.png" alt="github">
-        <p id="contate"> Github </p>
-      </a>
-      <a href="https://www.linkedin.com/in/marlla-rolemberg-411b56164" target="_blank"><img src="imagens/linkedin.png" alt="linkedin">
-        <p> Linkedin</p>
-      </a>
-
-      <a href="mailto:marllasousar@gmail.com?subject=Propostadev" target="_blank"><img src="imagens/gmail.png" alt="gmail">
-        <p> E-mail</p>
-      </a><br><br>
-
+        <h3>Gerenciamento de versões</h3>
+        <p>Experiência em versionamento para projetos</p>
+      </li>
+      <li class="skills__item">
+        <div class="image-container">
+          <img src="/assests/phone.png" alt="ux/ui">
+        </div>
+        <h3>UX/UI Design</h3>
+        <p>Conhecimentos em design modernos</p>
+      </li>
+    </ul>
+  </div>
+</section>
+<section id="projects" class="projects max-width">
+  <div class="projects__content">
+    <h2 class="secondary-title"> Projetos em Destaques</h2>
+    <p> 
+      Ideias para uso social
+    </p>
+    <ul>
+      <li>
+        <div class="image">
+          <img src="assests/erp.avif" alt="Projeto1">
+        </div>
+         <div class="project__info">
+          <h3 class="tertiary-title">Sistema</h3>
+          <p> Sistemas</p>
+          <a href="#"> Leia mais &rarr;</a>
+         </div>
+  </li>
+  <li class="projects__reversed-list">
+    <div class="image">
+      <img src="assests/ecommerce.avif" alt="Projeto2">
     </div>
-
-
-    <p class="cy"> © Criado por Marlla Rolemberg</p>
-  </footer>
+     <div class="project__info">
+      <h3 class="tertiary-title">Loja virtual</h3>
+      <p> Lojas de semi joias</p>
+      <a href="#"> Leia mais &rarr;</a>
+     </div>
+</li>
+<li>
+  <div class="image"> 
+    <img src="assests/delivery.avif" alt="Projeto3">
+  </div>
+   <div class="project__info">
+    <h3 class="tertiary-title">Delivery</h3>
+    <p> App de delivery</p>
+    <a href="#"> Leia mais &rarr;</a>
+   </div>
+</li>
+</ul>
+  </div>
+</section>
+</main>
+  <footer>
+  <div class="footer__content  max-width mb-0">
+    <h2 class="tertiary-title">
+      Vamos conversar?
+    </h2>
+    <p> Ficarei contente em saber sobre seus futuros projetos e como posso te ajudar a otimizar e torna o seus pensamentos realidades.</p>
+  <div class="footer__contact mb-m">
+    <span class="mb-0">marllasousar@gmail.com</span>
+  </div>
+  <ul>
+    <li class="mb-l"> 
+      <a href=""><img src="/assests/instagram.svg" alt="instagram"></a>
+    </li>
+    <li>
+      <a href=""><img src="/assests/linkedin.svg" alt="Linkedin"></a>
+    </li>
+  </ul>
+  <p class="footer__copyright">
+    © 2023 Marlla Rolemberg. Todos os direitos reservados.
+  </p>
+  </div>
+</footer>
 
 </body>
-
-
-
+<script src="script/index.js"></script>
 </html>

@@ -47,8 +47,8 @@
 @media only screen and (max-width:768px){
     .projects ul li .image img{
         width: 50%;
-        min-width: 40rem;
-        max-width: 47rem;
+        min-width: 20rem;
+        max-width: 27rem;
         height: auto;
     }  
 }

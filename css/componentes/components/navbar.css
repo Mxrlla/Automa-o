@@ -5,14 +5,15 @@
     width: 100%;
     z-index: 10;
     background-color: var(--white);
+    
 }
 .navbar .navbar__content{
    padding: 1rem 3rem 0.5rem; 
    display: flex;
+   align-items: center;
    justify-content: space-between;
 }
-.navbar .navbar__content .navbar__links{
-    padding: 3rem 4rem 1rem; 
+.navbar .navbar__content .navbar__links{ 
     display: flex;
     justify-content: space-between
 }
@@ -31,7 +32,7 @@
     color: var(--tertiary--color);
 }
 .navbar .navbar__content .pic_logo{
-    width: 10%;
+    width: 5%;
 }
 .navbar .navbar__content .navbar__mobile a:hover {
  color: var(--tertiary--color);

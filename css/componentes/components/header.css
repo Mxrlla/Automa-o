@@ -21,8 +21,9 @@ header .header__left p{
 header .header__right .header__image .Marlla{
     position: relative;
     line-height: 0;
-    min-width: 25rem;
+    min-width: 50%;
     max-width: 100%;
     margin-bottom: 15rem;
     border-radius: 9.5%;
+    margin-right: 5rem;
 }

@@ -9,7 +9,7 @@ scroll-margin-top:20rem ;
 header .header__left{
     max-width: 50rem ;
     flex:1 ;
-    margin-left: 15rem;
+    margin-left: 7rem;
 }
 header .header__left p{
     margin-top: 1rem;
@@ -25,5 +25,5 @@ header .header__right .header__image .Marlla{
     max-width: 100%;
     margin-bottom: 15rem;
     border-radius: 9.5%;
-    margin-right: 15rem;
+    margin-right: 7rem;
 }

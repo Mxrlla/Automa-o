@@ -27,8 +27,9 @@ main {
     padding: 20px;
 }
 main p{
+    width: 100%;
     font-size: 9px;
-    text-align: center;
+    height: 100;
 }
 /* Estilização do botão */
 button {

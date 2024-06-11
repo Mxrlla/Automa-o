@@ -30,7 +30,7 @@ function sendCommand(command) {
   }
   
   function updateStatus() {
-    fetch('/status')
+    fetch('')
       .then(response => response.text())
       .then(data => {
         document.getElementById('status').innerText = data;
